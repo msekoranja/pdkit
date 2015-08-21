@@ -12,11 +12,11 @@ Project will rely on libmill for concurrency support.
 Use cases and features to support
 ---------------------------------
 
-IP, UDP: header + data
-TCP: bytestream
-SCTP: channels, OOB
-PGM: one-way, unreliable, multicast
-WebSockets, TCPMUX: connection handover
+* IP, UDP: header + data
+* TCP: bytestream
+* SCTP: channels, OOB
+* PGM: one-way, unreliable, multicast
+* WebSockets, TCPMUX: connection handover
 
 Example
 -------
