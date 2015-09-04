@@ -18,6 +18,12 @@ Use cases and features to support
 * PGM: one-way, unreliable, multicast
 * WebSockets, TCPMUX: connection handover
 
+Some principles
+---------------
+
+* No non-blocking I/O (libmill takes care of that)
+* No zero-copy as it messes with proper layering
+
 Example
 -------
 
