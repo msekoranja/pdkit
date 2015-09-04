@@ -21,7 +21,7 @@ Use cases and features to support
 Some principles
 ---------------
 
-* No non-blocking I/O (libmill takes care of that)
+* All I/O is blocking (libmill takes care of concurrency)
 * No zero-copy as it messes with proper layering
 
 Example
